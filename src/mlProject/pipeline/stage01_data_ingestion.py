@@ -1,7 +1,3 @@
-from mlProject import logger
-
-logger.info("Welcome to custom logging")
-
 from mlProject.config.configuration import ConfigurationManager
 from mlProject.components.data_ingestion import DataIngestion
 from mlProject import logger
@@ -33,4 +29,3 @@ if __name__ == '__main__':
         logger.exception(e)
         raise e
 
-m
